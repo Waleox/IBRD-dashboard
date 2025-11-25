@@ -1,0 +1,7 @@
+{
+  "name": "ibrd-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "streamlit run app.py --server.port 8080 --server.address 0.0.0.0"
+  }
+}
