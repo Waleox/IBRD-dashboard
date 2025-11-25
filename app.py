@@ -24,7 +24,7 @@ st.title("📊 Dashboard de Préstamos Históricos del IBRD")
 # CARGA AUTOMÁTICA DE TU DATASET FINAL
 # ============================================================
 
-DATA_URL = "IBRD_clean.parquet"   # TU ARCHIVO FINAL
+DATA_URL = "IBRD_Clean.parquet"   # TU ARCHIVO FINAL
 
 @st.cache_data
 def load_data():
